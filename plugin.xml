@@ -8,7 +8,7 @@
     <license>MIT</license>
 
     <js-module src="www/music.js" name="music">
-        <clobbers target="cordova.plugins.Music"/>
+        <merges target="cordova.plugins.Music"/>
     </js-module>
 
     <!-- android -->
@@ -26,18 +26,5 @@
         </config-file>
 
         <source-file src="src/android/Music.java" target-dir="src/com/cordova/music"/>
-    </platform>
-
-    <!-- ios -->
-    <platform name="ios">
-        <config-file target="config.xml" parent="/*">
-            <feature name="Music">
-                <param name="ios-package" value="Music"/>
-            </feature>
-        </config-file>
-
-        <header-file src="src/ios/Music.h"/>
-        <source-file src="src/ios/Music.m"/>
-        <framework src="MediaPlayer.framework"/>
     </platform>
 </plugin>
