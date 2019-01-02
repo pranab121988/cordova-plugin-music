@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-music",
-  "version": "1.2.0",
+  "name": "cordova-plugin-music-2018",
+  "version": "1.0.0",
   "description": "Cordova Notification Plugin",
   "cordova": {
-    "id": "cordova-plugin-music",
+    "id": "cordova-plugin-music-2018",
     "platforms": [
       "android"
     ]
