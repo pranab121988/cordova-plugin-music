@@ -1,0 +1,20 @@
+{
+  "name": "cordova-plugin-music",
+  "version": "1.2.0",
+  "description": "Cordova Notification Plugin",
+  "cordova": {
+    "id": "cordova-plugin-music",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pranab121988/cordova-plugin-music"
+  },
+  "keywords": [
+    "cordova",
+  ],
+  "author": "Apache Software Foundation",
+  "license": "Apache 2.0"
+}
