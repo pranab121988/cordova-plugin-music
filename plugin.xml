@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
-        id="cordova-plugin-music"
+        id="cordova-plugin-music-2018"
         version="1.0.0">
     <name>Music</name>
     <description>music plugin</description>
